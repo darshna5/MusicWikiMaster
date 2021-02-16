@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MusicWikiMaster</string>
+    <string name="api_key">451871b9fc8919b6f0c64fd790d9641b</string>
+    <string name="secret">7f41bb40b96463c96681712bd42bc2ac</string>
+    <string name="userID">Darshna09</string>
+    <string name="userPwd">Darshna@12</string>
+
 </resources>
