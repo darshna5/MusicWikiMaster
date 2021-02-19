@@ -15,6 +15,7 @@ The app simply displays the top tags list and selected tag top 10 albums, artist
 *	I have used 3rd party libraries like RxJava/RxAndroid 2, Dagger2,and Retrofit2,Glide.
 *	you can download an apk file for the app here.
 
+## App Snapshot:
 ![](doc/screenshot1.png)
 ![](doc/screenshot2.png)
 ![](doc/screenshot3.png)
