@@ -7,6 +7,7 @@ The app simply displays the top tags list and selected tag top 10 albums, artist
 *	The app is structured in MVVM.
 * The app uses last fm's APIs to get the user top lists.
 *	To be able to use their APIs you need first to create an API key.
+  Visit: https://www.last.fm/api/account/create
 *	You can use methods to get top artists,  etc..
 *	To not only display top tens you can extend the limit for each request as much as you want but with max 50 records per call by changing the value of TOP_ITEMS_LIMIT to 50 in Constants.Java file.
 *	I have used databinding to write declarative layouts
