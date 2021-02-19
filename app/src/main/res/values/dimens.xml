@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_height">45dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="text_sub_size">16sp</dimen>
+    <dimen name="margin_6">6dp</dimen>
+    <dimen name="tag_size">35sp</dimen>
+    <dimen name="content">14sp</dimen>
+</resources>

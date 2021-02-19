@@ -1,0 +1,63 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="vm"
+            type="com.example.musicwikimaster.ui.album.TopAlbumsViewModel" />
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/tag_size"
+                android:textColor="@android:color/black"
+                android:text="@{vm.mTagName}"
+                android:layout_marginBottom="@dimen/margin5"
+                tools:text="TagName" />
+
+            <TextView
+                android:id="@+id/tagInfoAlbum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/content"
+                android:layout_marginStart="@dimen/margin_10"
+                android:layout_marginEnd="@dimen/margin_10"
+                android:text="@{vm.mTagContent}"
+                android:textColor="@color/colorSeparatorGrey"
+                android:layout_marginBottom="@dimen/margin5"
+                tools:text="TagName" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/top_albums_RecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+        <ProgressBar
+            android:id="@+id/prgrs_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <include
+            android:id="@+id/empty_layout"
+            layout="@layout/empty_results"
+            android:visibility="gone"/>
+    </FrameLayout>
+</layout>

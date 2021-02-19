@@ -1,8 +1,14 @@
 <resources>
-    <string name="app_name">MusicWikiMaster</string>
-    <string name="api_key">451871b9fc8919b6f0c64fd790d9641b</string>
-    <string name="secret">7f41bb40b96463c96681712bd42bc2ac</string>
-    <string name="userID">Darshna09</string>
-    <string name="userPwd">Darshna@12</string>
+    <string name="app_name">MusicWiki</string>
+    <string name="welcome">Welcome!</string>
+    <string name="choose_a_genres_to_start_with">Choose a Genres to start with</string>
+    <string name="todo">todo</string>
 
+    <string name="top_artists_title">Top Artists</string>
+    <string name="top_tracks_title">Top Tracks</string>
+    <string name="top_albums_title">Top Albums</string>
+    <string name="plays">plays</string>
+    <string name="empty_here">It\'s empty here, try another user name</string>
+    <string name="tag_title">Tag Detail</string>
+    <string name="no_internet">Please check your Internet</string>
 </resources>
